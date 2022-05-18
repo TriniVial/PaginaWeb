@@ -21,7 +21,7 @@ function App() {
   // fetch('https://trininapi/presiondeoxineno')
   // .then(response => response.json())
   // .then((json) => {
-  //   setOigeno(json)
+  //   setOxigeno(json)
   //   console.log(json)
   // })
 
