@@ -6,9 +6,10 @@ import './App.css';
 function App() {
 
 
-  const [albums, setAlbums] = useState([])
+  
+  // const [albums, setAlbums] = useState([])
 
-  const [oxigeno, setOxigeno] = useState([])
+  // const [oxigeno, setOxigeno] = useState([])
 
 
   fetch('https://jsonplaceholder.typicode.com/posts')
