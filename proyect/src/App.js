@@ -7,7 +7,7 @@ function App() {
 
 
   
-  // const [albums, setAlbums] = useState([])
+  const [albums, setAlbums] = useState([])
 
   // const [oxigeno, setOxigeno] = useState([])
 
