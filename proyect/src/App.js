@@ -7,17 +7,17 @@ function App() {
 
 
   
-  const [albums, setAlbums] = useState([])
+  //const [albums, setAlbums] = useState([])
 
   // const [oxigeno, setOxigeno] = useState([])
 
-
-  fetch('https://jsonplaceholder.typicode.com/posts')
-  .then(response => response.json())
-  .then((json) => {
-    setAlbums(json)
-    console.log(json)
-  })
+// LLAMANDO A LA API 
+  //fetch('https://jsonplaceholder.typicode.com/posts')
+  //.then(response => response.json())
+  //.then((json) => {
+    //setAlbums(json)
+    //console.log(json)
+  //})
 
   // fetch('https://trininapi/presiondeoxineno')
   // .then(response => response.json())
@@ -32,38 +32,39 @@ function App() {
       <div className="element-container">
         <div className="flex-group">
 
-        { albums.map((item) => (
+        {/* albums.map((item) => (
           <div className="element">
             {item.title}
           </div>
           
-          ))}
-          {/* <div className="element">
-            electro
-          </div>
+          ))*/}
           <div className="element">
-          frecuencia respiratoria
+            ECG
+          </div>
 
-          </div>
           <div className="element">
-          frecuencia cardiaca
+            Frecuencia Respiratoria
+          </div>
 
-          </div>
           <div className="element">
-          saturacion
+          Frecuencia Cardíaca
+          </div>
 
-          </div>
           <div className="element">
-          reflejo de pupilas
+          Saturación de Oxígeno en la sangre
+          </div>
 
-          </div>
           <div className="element">
-          avance diario
+          Reflejo de Pupilas
+          </div>
 
-          </div>
           <div className="element">
-          audio
-          </div> */}
+          Actividad diaria
+          </div>
+
+          <div className="element">
+          Audios
+          </div> 
         </div>
       </div>
     </div>
